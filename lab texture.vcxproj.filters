@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="..\ext\glad\src\glad.c">
+      <Filter>ext</Filter>
+    </ClCompile>
+    <ClCompile Include="GLSL.cpp" />
+    <ClCompile Include="WindowManager.cpp" />
+    <ClCompile Include="MatrixStack.cpp" />
+    <ClCompile Include="Shape.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Program.h" />
+    <ClInclude Include="GLSL.h" />
+    <ClInclude Include="WindowManager.h" />
+    <ClInclude Include="MatrixStack.h" />
+    <ClInclude Include="Shape.h" />
+    <ClInclude Include="tiny_obj_loader.h" />
+    <ClInclude Include="stb_image.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ext">
+      <UniqueIdentifier>{a1735e5b-c01d-45eb-b937-869f0ba27591}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{45595d0c-1d02-4ee3-920f-cb583a557097}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\resources\height_vertexS.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\resources\leaves_fragment.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\resources\leaves_vertex.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\resources\S_frag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\resources\sky_fragment.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\resources\sky_vertex.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\resources\slender_fragment.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\resources\slender_vertex.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\resources\slender_vertexS.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\resources\tree_vertexS.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\resources\trunk_fragment.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\resources\trunk_vertex.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\resources\vertFB.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\resources\fragFB.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\resources\height_frag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\resources\height_vertex.glsl">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
